@@ -1,0 +1,33 @@
+
+.select-box-todo{
+  display: flex;
+  align-items: center;
+  border: solid 2px #268358;
+  border-radius: 6px;
+  padding: 10px;
+  gap: 1rem;
+  margin-bottom: 1.4rem;
+  cursor: pointer;
+}
+
+.select-box-todo:hover{
+  border-color: #A3E494;
+}
+
+.select-box-todo span{
+  font-size: 40px;
+  pointer-events: none;
+}
+
+.select-box-description{
+  pointer-events: none;
+  width: 100%;
+}
+
+.select-box-description{
+  font-size: 80%;
+}
+
+.select{
+  border-color: #A3E494;
+}

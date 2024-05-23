@@ -1,0 +1,22 @@
+
+
+.confirm-contents-form-box{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.confirm-contents-form-box span{
+  font-size: 170%;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.confirm-contents-form-box span:last-of-type{
+  margin-top: 2rem;
+}
+
+.confirm-contents-form-box .more-info-p{
+  font-size: 120% !important;
+  font-weight: 300;
+}
