@@ -10,13 +10,14 @@ function FormStep3Page(){
   const { state, dispatch } = useForm();
 
   const emailRegex = /^[a-zA-Z0-9._%+-]+@+[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/
+  const githubRegex = /^[a-zA-Z]+.com+[/]+[a-zA-Z0-9.-]/
 
   const nextPageStep = ()=>{
 
-    if(emailRegex.test(state.email)){
+    if(emailRegex.test(state.email) && githubRegex.test(state.github)){
       navigate('/step4');
     }else{
-      alert('Email invalido!')
+      alert('Email invalido ou link github invalido!')
     }
     
   }
