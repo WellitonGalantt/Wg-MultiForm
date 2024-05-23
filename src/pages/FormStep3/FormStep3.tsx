@@ -72,7 +72,7 @@ function FormStep3Page(){
           Link do seu GitHub:
           <input 
           type="url" 
-          placeholder='Digite aqui seu github'
+          placeholder='ex: "github.com/SeuUsuario"'
           value={state.github} 
           onChange={setGithubForm}
           required
