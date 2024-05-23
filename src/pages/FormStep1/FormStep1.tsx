@@ -37,7 +37,7 @@ function FormStep1Page(){
     <>
     <Theme>
       <div className="step-container-todo">
-        <p>Passo {state.currentStep}/3</p>
+        <p>Passo {state.currentStep}/4</p>
         <h1>Vamos Começar pelo seu nome</h1>
         <p>Preencha o campo abaixo com seu nome completo.</p>
 

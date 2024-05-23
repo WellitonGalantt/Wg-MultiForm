@@ -51,7 +51,7 @@ function FormStep3Page(){
     <>
     <Theme>
       <div className="step-container-todo">
-        <p>Passo {state.currentStep}/3</p>
+        <p>Passo {state.currentStep}/4</p>
         <h1>{state.name}, onde te achamos?</h1>
         <p>Digite seus contatos validos para receber ofertas de trabalho.</p>
 

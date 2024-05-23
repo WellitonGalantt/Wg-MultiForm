@@ -39,7 +39,7 @@ function FormStep2Page(){
     <>
     <Theme>
       <div className="step-container-todo">
-        <p>Passo {state.currentStep}/3</p>
+        <p>Passo {state.currentStep}/4</p>
         <h1>{state.name}, o que melhor descreve você?</h1>
         <p>Selecione a opção que descreve melhor sua carreira atualmente.</p>
 
